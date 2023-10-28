@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2023-10-28T02:35:13.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="YKIt4csWfLin9hyNFU0b" version="22.0.2" type="device">
+  <diagram name="Página-1" id="McrSEZHiqLOnxa6ws6xW">
+    <mxGraphModel dx="1316" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-1" value="Configuracion Inicial" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="70" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-2" value="contraseña usuario admin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="eWCLxdgNcp8xgmZjLcBD-1" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="eWCLxdgNcp8xgmZjLcBD-1" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-4" value="acceder al programa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="eWCLxdgNcp8xgmZjLcBD-1" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-5" value="Registro Usuarios" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="70" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-6" value="Ingresar datos de usuarios&lt;br&gt;nombres&lt;br&gt;apellidos&lt;br&gt;correo&lt;br&gt;contraseña&lt;br&gt;rol asignado&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="eWCLxdgNcp8xgmZjLcBD-5" vertex="1">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="eWCLxdgNcp8xgmZjLcBD-5" vertex="1">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-8" value="Editar y deshabilitar&lt;br&gt;Registrar Usuarios&amp;nbsp;&lt;br&gt;Buscar usuarios&lt;br&gt;Reiniciar contraseña&amp;nbsp;&lt;br&gt;Deshabilitar usuario&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="eWCLxdgNcp8xgmZjLcBD-5" vertex="1">
+          <mxGeometry y="128" width="160" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-9" value="Registro Votantes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="70" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-10" value="registro de votantes&lt;br&gt;votantes mayores a 18 años&lt;br&gt;contraseña de 16 caracteres&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="eWCLxdgNcp8xgmZjLcBD-9" vertex="1">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="eWCLxdgNcp8xgmZjLcBD-9" vertex="1">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-12" value="registrar votantes&lt;br&gt;modificar datos del votante&lt;br&gt;generar nueva contraseña&lt;br&gt;Dar de baja por fallecimiento" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="eWCLxdgNcp8xgmZjLcBD-9" vertex="1">
+          <mxGeometry y="118" width="160" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-13" value="Admin d elecciones" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="330" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-14" value="titulo eleccion&amp;nbsp;&lt;br&gt;proposito eleccion&lt;br&gt;descripcion eleccion&lt;br&gt;codigo eleccion&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="eWCLxdgNcp8xgmZjLcBD-13" vertex="1">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="eWCLxdgNcp8xgmZjLcBD-13" vertex="1">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="eWCLxdgNcp8xgmZjLcBD-16" value="crearEleccion&lt;br&gt;verificacion rol&amp;nbsp;&lt;br&gt;verificacion fechas elec&lt;br&gt;eliminar Eleccion&lt;br&gt;busqueda Eleccion&lt;br&gt;verificacion candidatos&lt;br&gt;Configuracion eleccion" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="eWCLxdgNcp8xgmZjLcBD-13" vertex="1">
+          <mxGeometry y="108" width="160" height="122" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
